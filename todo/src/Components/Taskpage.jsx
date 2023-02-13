@@ -52,7 +52,7 @@ const Taskpage = () => {
     return <div>
         <h1>Task page</h1> 
         <div>
-            <input type="text" name="title" placeholder="get milk" onChange={handleChange}/>
+            <input type="text" name="title" placeholder="get milk" onChange={handleChange}/> <br/>
             <button type="submit" onClick={handleSubmit}>ADD TASK</button>
             <hr/>
             <div>

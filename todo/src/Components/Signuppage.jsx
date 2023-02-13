@@ -29,11 +29,11 @@ const Signuppage = () => {
     return <div>
         <h1>Signuppage</h1>
         <div>
-            <input type="text" name="name" onChange={handleChange}/>
-            <input type="text" name="username" onChange={handleChange}/>
-            <input type="text" name="email" onChange={handleChange}/>
-            <input type="text" name="password" onChange={handleChange}/>
-            <button type="submit" onClick={handleSubmit}>Sign up</button>
+            <input type="text" placeholder="enter your name" name="name" onChange={handleChange}/> <br />
+            <input type="text" name="username"  placeholder="username" onChange={handleChange}/> <br />
+            <input type="text" name="email" placeholder="enter your email" onChange={handleChange}/> <br />
+            <input type="text" name="password" placeholder="enter password" onChange={handleChange}/> <br />
+            <button type="submit" onClick={handleSubmit}>Sign up</button> <br />
         </div>
     </div>
 }

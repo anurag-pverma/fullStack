@@ -38,8 +38,8 @@ const Loginpage = () => {
     return <div>
         <h1>Login page</h1> 
         <div>
-            <input type="text" name="username" onChange={handleChange}/>
-            <input type="text" name="password" onChange={handleChange}/>
+            <input type="text" name="username" onChange={handleChange}/> <br />
+            <input type="text" name="password" onChange={handleChange}/><br />
             <button type="submit" onClick={handleSubmit}>Login</button>
         </div>
     </div>
